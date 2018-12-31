@@ -1,0 +1,64 @@
+{
+    "packages": [
+        {
+            "name": "aaa",
+            "maintainer": "Creative Robotics",
+            "websiteURL": "http://www.creative-robotics.com",
+            "email": "support@creative-robotics.com",
+            "help": {
+                "online": "http://www.creative-robotics.com/forum"
+            },
+            "platforms": [
+                {
+                    "name": "Creative Robotics Boards",
+                    "architecture": "sam",
+                    "version": "1.0.0",
+                    "category": "Creative Robotics",
+                    "url": "http://bbb.com/aaa.zip",
+                    "archiveFileName": "creative-robotics-samd-1.0.0.zip",
+                    "checksum": "SHA-256:x",
+                    "size": "x",
+                    "help": {
+                        "online": "http://bbb.com/"
+                    },
+                    "boards": [
+                        {
+                            "name": "ETRT 2"
+                        },
+                        {
+                            "name": "BaseX D51 64"
+                        }
+                    ],
+                    "toolsDependencies": [
+                    {
+                      "packager": "arduino",
+                      "name": "arm-none-eabi-gcc",
+                      "version": "4.8.3-2014q1"
+                    },
+                    {
+                      "packager": "arduino",
+                      "name": "bossac",
+                      "version": "1.8.0-48-gb176eee"
+                    },
+                    {
+                      "packager": "arduino",
+                      "name": "openocd",
+                      "version": "0.9.0-arduino"
+                    },
+                    {
+                      "packager": "arduino",
+                      "name": "CMSIS",
+                      "version": "4.5.0"
+                    },
+                    {
+                      "packager": "arduino",
+                      "name": "CMSIS-Atmel",
+                      "version": "1.2.0"
+                    }
+                            ]
+                        }
+                    ],
+            "tools": []
+        }
+    ]
+}
