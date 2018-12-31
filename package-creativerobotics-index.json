@@ -12,14 +12,14 @@
                 {
                     "name": "Creative Robotics Boards",
                     "architecture": "sam",
-                    "version": "1.0.0",
+                    "version": "0.1.0",
                     "category": "Creative Robotics",
-                    "url": "http://bbb.com/aaa.zip",
-                    "archiveFileName": "creative-robotics-samd-1.0.0.zip",
-                    "checksum": "SHA-256:x",
-                    "size": "x",
+                    "url": "https://github.com/CreativeRobotics/arduino-boards-index/boards/CreativeRobotics-0.1.0.zip",
+                    "archiveFileName": "CreativeRobotics-0.1.0.zip",
+                    "checksum": "SHA-256:ff74b37f73fc1e902b2480ce3aae96d92aff3d108791be92434c4d85b0bf0c50",
+                    "size": "25428347",
                     "help": {
-                        "online": "http://bbb.com/"
+                        "online": "http://www.creative-robotics.com/forum"
                     },
                     "boards": [
                         {
